@@ -1,9 +1,18 @@
-.toDisplay {
-    display: none;
+body {
+    background-color: lightblue;
 }
 
-.display:hover .toDisplay{
-    display: block;
+button {
+    background-color: violet;
+    color: blue;
+    padding: 12px;
+    font-style: bold;
+    font-family: "Courier New", Courier, monospace;
+}
+
+button:hover {
+    background-color: blue;
+    color: violet;
 }
 
 
